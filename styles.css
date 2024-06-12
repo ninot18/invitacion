@@ -78,7 +78,7 @@ img {
     left: 50%;
     transform: translateX(-50%);
     display: flex;
-    gap: 50px; /* Espacio entre los textos */
+    gap: 20px; /* Espacio entre los textos */
     color: white;
     font-size: 18px; /* Ajusta el tamaño del texto según sea necesario */ /* Fondo semitransparente para mayor legibilidad */
     padding: 10px;
@@ -88,7 +88,7 @@ img {
     justify-content: center;
     align-items: center;
     background-color: brown;
-    width: 150px;
+    width: 120px;
     height: 90px;
     border-radius: 10%;
 
@@ -97,7 +97,7 @@ img {
 
 @media (max-width: 768px) {
     .card{
-        width: 600px;
-        height: 500px;
+        width: 500px;
+        height: 450px;
     }
 }
