@@ -93,3 +93,11 @@ img {
     border-radius: 10%;
 
 }
+
+
+@media (max-width: 768px) {
+    .card{
+        width: 600px;
+        height: 500px;
+    }
+}
