@@ -183,7 +183,10 @@ a{
     animation: rotate 90s linear infinite;
     transform-origin: center center;
 }
-
+.rotating-image_2 {
+    animation: rotate2 90s linear infinite;
+    transform-origin: center center;
+}
 .back {
     position: absolute;
     bottom: 20%;
@@ -218,6 +221,15 @@ a{
     }
     to {
         transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate2 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
     }
 }
 
