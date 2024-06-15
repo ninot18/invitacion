@@ -2,7 +2,10 @@
     font-family: 'Font';
     src: url('font/CaviarDreams.ttf') format('truetype');
 }
-
+@font-face {
+    font-family: 'FontBold';
+    src: url('font/CaviarDreams_Bold.ttf') format('truetype');
+}
 body, html {
     margin: 0;
     padding: 0;
@@ -22,9 +25,10 @@ body, html {
 }
 .text_star {
     position: absolute;
-    top: 55%;
-    left: 47%;
-    color: white;
+    top: 57%;
+    left: 46%;
+    color: red;
+    font-family: 'FontBold';
 }
 .video-background {
     position: absolute;
@@ -102,19 +106,21 @@ body, html {
 .info {
     display: flex;
     justify-content: space-around;
-    gap: 15px;
+    gap: 10px;
     margin-top: 20px;
     margin-bottom: 10px;
 }
 
 .item {
-    background-color: rgb(128, 128, 128);
+    background-color: rgb(116, 103, 91, 255);
     padding: 5px 10px;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    height: 110px;
+    width: 75px;
 }
 
 .dress_body{
@@ -125,7 +131,7 @@ body, html {
 }
 
 .btn_dress{
-    background-color: rgb(128, 128, 128);
+    background-color: rgb(116, 103, 91, 255);
     height: 50px;
     width: 150px;
     display: flex;
@@ -142,6 +148,8 @@ a{
 
 .hombres_mujeres_body{
     background-color: black;
+    display: flex;
+    flex-direction: column;
 }
 .img_container{
     position: relative;
