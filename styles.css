@@ -136,27 +136,30 @@ a{
 .hombres_mujeres_body{
     background-color: black;
 }
+.img_container{
+    position: relative;
+}
 .dress_code_img{
     height: auto;
     width: 420px;
 }
 .star1{
     position: absolute;
-    top: 260px;
+    top: 10px;
     left: 10px;
     height: auto;
     width: 100px;
 }
 .star2{
     position: absolute;
-    top: 260px;
+    top: 10px;
     left: 155px;
     height: auto;
     width: 100px;
 }
 .star3{
     position: absolute;
-    top: 260px;
+    top: 10px;
     left: 285px;
     height: auto;
     width: 100px;
