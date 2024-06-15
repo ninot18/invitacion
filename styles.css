@@ -1,12 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Cooper+Black&family=Caviar+Dreams&display=swap');
-
+@font-face {
+    font-family: 'Font';
+    src: url('font/CaviarDreams.ttf') format('truetype');
+}
 
 body, html {
     margin: 0;
     padding: 0;
     height: 100%;
     overflow: hidden;
-    font-family: Arial, sans-serif;
+    font-family: 'Font', sans-serif;
     color: rgb(173, 173, 2);
     display: flex;
     justify-content: center;
@@ -17,6 +19,12 @@ body, html {
     background-color: black;
     display: flex;
     align-items: flex-start;
+}
+.text_star {
+    position: absolute;
+    top: 55%;
+    left: 47%;
+    color: white;
 }
 .video-background {
     position: absolute;
@@ -67,8 +75,8 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    height: 400px;
-    width: 90vh;
+    height: 600px;
+    width: 80vh;
 }
 .stars {
     position: absolute;
@@ -103,7 +111,6 @@ body, html {
     background-color: rgb(128, 128, 128);
     padding: 5px 10px;
     border-radius: 10px;
-    font-family: 'Caviar Dreams', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -165,7 +172,7 @@ a{
     width: 100px;
 }
 .rotating-image {
-    animation: rotate 20s linear infinite;
+    animation: rotate 90s linear infinite;
     transform-origin: center center;
   }
 
