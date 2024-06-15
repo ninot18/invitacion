@@ -18,3 +18,18 @@ for(let i = 0; i < STAR_COUNT; i++){
 }
 console.log(result.substring(0, result.length - 1))
 
+document.addEventListener('DOMContentLoaded', () => {
+    const starsContainer = document.createElement('div');
+    starsContainer.classList.add('stars');
+
+    for (let i = 0; i < 100; i++) {
+        const star = document.createElement('div');
+        star.classList.add('star');
+        star.style.left = `${Math.random() * 100}vw`;
+        star.style.top = `${Math.random() * 100}vh`;
+        star.style.animationDuration = `${Math.random() * 10 + 5}s`;
+        starsContainer.appendChild(star);
+    }
+
+    document.body.appendChild(starsContainer);
+});
