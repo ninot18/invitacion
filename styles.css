@@ -174,7 +174,21 @@ a{
 .rotating-image {
     animation: rotate 90s linear infinite;
     transform-origin: center center;
-  }
+}
+
+.back {
+    position: absolute;
+    bottom: 20%;
+}
+
+.back img{
+    height: 40px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
 @keyframes float {
     0% {
