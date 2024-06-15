@@ -126,7 +126,46 @@ body, html {
     justify-content: center;
     border-radius: 10px;
     font-size: 20px;
+    cursor: pointer;
 }
+a{
+    text-decoration: none;
+    color: rgb(173, 173, 2); 
+}
+
+.hombres_mujeres_body{
+    background-color: black;
+}
+.dress_code_img{
+    height: auto;
+    width: 420px;
+}
+.star1{
+    position: absolute;
+    top: 285px;
+    left: 0;
+    height: 140px;
+    width: 140px;
+}
+.star2{
+    position: absolute;
+    top: 285px;
+    left: 125px;
+    height: 140px;
+    width: 140px;
+}
+.star3{
+    position: absolute;
+    top: 285px;
+    left: 265px;
+    height: 140px;
+    width: 140px;
+}
+.rotating-image {
+    width: 140px; /* Adjust the size as needed */
+    height: auto; /* Maintain aspect ratio */
+    animation: rotate 20s linear infinite;
+  }
 
 @keyframes float {
     0% {
