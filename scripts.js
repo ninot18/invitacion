@@ -44,7 +44,7 @@ function changeTittle(text){
             txt.innerHTML = 'Hotel Dann Carlton Crta. 2N 1-60 Cali Valle'
             break
         case 'hour':
-            txt.innerHTML = `Inicio: 18:00 <br> Fin: 3:00`
+            txt.innerHTML = `Inicio: 6:00pm <br> Fin: 3:00am`
             break
         default:
             break;
