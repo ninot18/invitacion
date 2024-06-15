@@ -143,28 +143,27 @@ a{
 .star1{
     position: absolute;
     top: 260px;
-    left: 0;
-    height: 140px;
-    width: 140px;
+    left: 10px;
+    height: auto;
+    width: 100px;
 }
 .star2{
     position: absolute;
     top: 260px;
-    left: 125px;
-    height: 140px;
-    width: 140px;
+    left: 155px;
+    height: auto;
+    width: 100px;
 }
 .star3{
     position: absolute;
     top: 260px;
-    left: 265px;
-    height: 140px;
-    width: 140px;
+    left: 285px;
+    height: auto;
+    width: 100px;
 }
 .rotating-image {
-    width: 140px; /* Adjust the size as needed */
-    height: auto; /* Maintain aspect ratio */
     animation: rotate 20s linear infinite;
+    transform-origin: center center;
   }
 
 @keyframes float {
