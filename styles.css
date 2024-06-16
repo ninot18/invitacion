@@ -26,10 +26,14 @@ body, html {
     display: flex;
     align-items: flex-start;
 }
+.img_principal{
+    width: 440px;
+    height: auto;
+}
 .text_star {
     position: absolute;
-    top: 58%;
-    left: 49%;
+    top: 42%;
+    left: 48.5%;
     color: black;
     font-family: 'FontBold';
 }
@@ -40,18 +44,6 @@ body, html {
     width: 100%;
     height: 100%;
     overflow: hidden;
-}
-.video-background video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -1;
-    transform: translate(-50%, -50%);
-    background-size: cover;
 }
 .card {
     width: 800px;
