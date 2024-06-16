@@ -18,6 +18,9 @@ body, html {
     align-items: center;
     text-align: center;
 }
+.index_body {
+    background-color: black;
+}
 .main_body{
     background-color: black;
     display: flex;
@@ -156,9 +159,9 @@ a{
 }
 
 .hombres_mujeres_body{
-    background-color: black;
     display: flex;
     flex-direction: column;
+    background-color: black;
 }
 .img_container{
     position: relative;
